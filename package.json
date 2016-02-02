@@ -1,0 +1,37 @@
+{
+  "name": "react-redux-look-boilerplate",
+  "version": "0.0.1",
+  "description": "react-redux-look-boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack && npm run minify",
+    "dev": "webpack --progress --colors --watch",
+    "devserver": "node index.js",
+    "minify": "node uglify.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dustin Hoffner",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.4.5",
+    "babel-loader": "^6.2.1",
+    "babel-plugin-add-module-exports": "^0.1.2",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-react-display-name": "^6.4.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-react-hmre": "^1.0.1",
+    "babel-preset-stage-0": "^6.3.13",
+    "express": "^4.13.3",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-look": "^0.7.2",
+    "react-native": "^0.17.0",
+    "react-redux": "^4.1.2",
+    "redux": "^3.1.7",
+    "redux-thunk": "^1.0.3",
+    "uglify-js": "^2.6.1",
+    "webpack": "^1.12.12"
+  }
+}
