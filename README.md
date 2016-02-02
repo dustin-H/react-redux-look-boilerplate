@@ -6,3 +6,5 @@
 - React-Look
 - Babel + webpack build
 - UglifyJS
+
+# License: MIT
